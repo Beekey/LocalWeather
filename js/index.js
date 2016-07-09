@@ -23,7 +23,7 @@ $(document).ready(function() {
     $("#location").html(loc);
 
     // Get weather data  from openweathermap.org
-    var apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "," + country + "&APPID=7cd7a2135a314e01b121bf6e69c6e4a8";
+    var apiUrl = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=" + city + "," + country + "&APPID=7cd7a2135a314e01b121bf6e69c6e4a8";
 
     $.getJSON(apiUrl, function(weatherData) {
 
