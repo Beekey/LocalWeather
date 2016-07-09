@@ -6,6 +6,8 @@
 /* if (window.location.protocol === "https:") {
   $(".container-fluid").html("Please replace the https in the address bar url to http. Thank you :)")
 }; */
+// However, github doesn't allow the user to change protocol to http
+// so I am using CORS server here afterall
 
 $(document).ready(function() {
   $("img").addClass("img-responsive");
