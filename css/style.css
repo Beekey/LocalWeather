@@ -1,0 +1,46 @@
+body {
+  background-color: #8FABE4;
+  /*  city skyline background by asrafil ( https://openclipart.org/user-detail/asrafil ) */
+  background-image: url("https://openclipart.org/image/1920px/svg_to_png/86299/city-skyline.png&disposition=attachment");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 100% auto;
+  color: white;
+  font-size: 21px;
+}
+
+.container-fluid {
+  margin-top: 2vh;
+}
+
+footer {
+  position: fixed;
+  color: grey;
+  bottom: 0px;
+  font-size: 12px;
+}
+
+#weatherDescription {
+  font-size: 170%;
+}
+
+.smallerText {
+  font-size: 90%;
+}
+
+#dataBox div {
+  margin: 1px;
+}
+
+#location {
+  color: #E8F0F9;
+}
+
+#temperature {
+  font-size: 200%;
+}
+
+#tempUnit button {
+  margin: 2px;
+}
