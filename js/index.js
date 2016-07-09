@@ -3,9 +3,9 @@
 // it can be solved by using a remote CORS server
 // but I found them to be down a lot, so I opted
 // for this solution
-if (window.location.protocol === "https:") {
+/* if (window.location.protocol === "https:") {
   $(".container-fluid").html("Please replace the https in the address bar url to http. Thank you :)")
-};
+}; */
 
 $(document).ready(function() {
   $("img").addClass("img-responsive");
